@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* sellectors */
+
+
+/* *custom properties = lobal properties */
+
+:root {
+    --name: value;
+}
+
+/* *END of custom properties */
+
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: rgba(238, 238, 238, 1);
+}
+
+
+
+.vertical-line {
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 35.5%;
+    border-left: 0.13rem solid rgba(238, 238, 238, 0.05);
+    z-index: 1;
+}
+
+.home-section {
+    /* position: absolute; */
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #222831;
+    height: 903px;
+}
+
+header {
+    height: 14vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.13rem solid rgba(238, 238, 238, 0.05);
+}
+
+.logo{
+    margin-left: 4rem;
+    max-width: 60px;
+    max-height: 60px;
+}
+
+.nav-bar {
+    display: flex;
+    list-style-type: none;
+    margin-right: 3rem;
+    
+}
+
+      
+li {
+    margin-right: 3rem;
+}
+      
+a {
+text-decoration: none;
+color: rgba(255, 255, 255, 0.7);
+cursor: pointer;
+font-size: 16px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+}
+      
+a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.mid-home {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10rem;
+    margin-left: 3rem;
+    /* border: 3px solid red; */
+}
+
+.Intro {
+    /* border: 3px solid red; */
+    margin-top: 2%;
+    z-index: 1;
+}
+h1 {
+    color: rgba(238, 238, 238, 1);
+
+    /* font-family: "Cormorant Garamond", serif; */
+    font-size: 85px;
+    /* letter-spacing: 0px; */
+    line-height: 98px;
+    margin: 0;
+}
+
+span {
+    color: rgba(0, 173, 181, 1);
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 1rem;
+    color: rgba(238, 238, 238, 1);
+}
+
+.cv {
+    color: rgba(238, 238, 238, 1);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    outline: none;
+    border: none;
+    
+    background: rgba(57, 62, 70, 0.75);
+
+    border-radius: 24px;
+
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 10px;
+    height: 50px;
+    margin-top: 1rem;
+}
+
+.download {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+
+.arrow{
+    margin-top: 5rem;
+    max-height: 37vh;
+    max-width: 76px;
+    margin-right: 1rem;
+}
+
+.animation1 {
+    margin-top: -1rem;
+    margin-left: 3.8rem;
+}
+.doodle {
+    width: 514px;
+    height: 514px;
+    left: 847px;
+    top: 295px;
+}
+
+.sticker {
+    width: 58vh;
+    height: 60vh;
+    margin-top: -23rem;
+}
+
+.arrow-down-btn {
+    position: absolute;
+    top: 754px;
+    left: 437px;
+    height: 13vh;
+    width: 12vh;
+}
+
+.about-section {
+    margin-top: 1.7rem;
+    background: #222831;
+    height: 903px;
+}
