@@ -30,7 +30,7 @@ body {
     position: fixed;
     top: 0;
     bottom: 0;
-    left: 35.5%;
+    left: 36.2%;
     border-left: 0.13rem solid rgba(238, 238, 238, 0.05);
     z-index: 1;
 }
@@ -93,7 +93,8 @@ a:hover {
     flex-direction: row;
     margin-top: 10rem;
     margin-left: 3rem;
-    /* border: 3px solid red; */
+    border: 3px solid red;
+    overflow-y: hidden;
 }
 
 .Intro {
@@ -203,21 +204,86 @@ h2 typewriter{
 }
 
 .sticker {
-    width: 58vh;
-    height: 62vh;
+    width: 56vh;
     margin-top: -23rem;
 }
 
 .arrow-down-btn {
     position: absolute;
     top: 754px;
-    left: 437px;
+    left: 447px;
     height: 13vh;
     width: 12vh;
 }
+
 
 .about-section {
     margin-top: 1.7rem;
     background: #222831;
     height: 903px;
+
+    display: grid;
+    place-items: center;
+
+}
+.about-mid {
+    display: grid;
+    grid-template-columns: 1fr, 3fr;
+    gap: 10rem;
+    margin-top: 5.3rem;
+    
+}
+.about {
+    margin-left: 6rem;
+    /* height: 189px; */
+    /* left: 96px;
+    top: 352px; */
+    grid-column: 1;
+    max-width: 21rem;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 96px;
+    padding: 0;
+}
+.Text {
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: rgba(238, 238, 238, 0.75);
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#more {display: none;}
+
+.animation2 {
+    grid-column: 2;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-right: 5.5rem;
+}
+.sticker2 {
+    position: absolute;
+    margin-top: 13rem;
+}
+.elipse {
+    margin-top: 4.7rem;
+}
+.snore {
+    position: absolute;
+    margin-top: 13rem;
+    margin-right: 10rem;
+}
+
+.doodle2 {
+    max-width: 90vh;
+    max-height: 90vh;
 }
