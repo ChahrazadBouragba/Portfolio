@@ -1,3 +1,7 @@
+
+  /* @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Bangers&family=Barrio&family=Bebas+Neue&family=Bree+Serif&family=Caveat:wght@600&family=Ceviche+One&family=Chango&family=Coda+Caption:wght@800&family=Cormorant+Garamond:ital,wght@1,500&family=Darumadrop+One&family=Denk+One&family=Fascinate&family=Foldit:wght@100;600&family=Gluten:wght@300&family=Goblin+One&family=Heebo:wght@100;300;400&family=Josefin+Sans&family=Lobster&family=Mogra&family=Monofett&family=Oswald:wght@500&family=Plaster&family=Playfair:wght@300&family=Poppins:wght@700&family=Roboto+Mono:wght@700&family=Wix+Madefor+Text:ital@1&display=swap'); */
+
+
 *{
     padding: 0;
     margin: 0;
@@ -21,6 +25,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     color: rgba(238, 238, 238, 1);
+    /* font-family: 'Roboto Mono', monospace; */
 }
 
 
@@ -91,7 +96,7 @@ a:hover {
 .mid-home {
     display: flex;
     flex-direction: row;
-    margin-top: 10rem;
+    margin-top: 9rem;
     
     /* border: 3px solid red; */
     overflow-y: hidden;
@@ -115,7 +120,7 @@ h1 {
     font-family: Lato, sans-serif;
     font-family: 'Roboto Mono', monospace;
     letter-spacing: 1px;
-    font-weight: bolder;
+    font-weight: 700;
 }
 
 
@@ -172,11 +177,15 @@ h2 typewriter{
 
     display: flex;
     align-items: center;
-    padding: 10px 30px;
+    padding: 27px 27px;
     gap: 10px;
     height: 50px;
     margin-top: 1.4rem;
     font-family: 'Roboto Mono', monospace;
+}
+.cv:hover {
+    box-shadow: 0 0 4px 0.3px  rgba(238, 238, 238, 0.5);
+    cursor: pointer;
 }
 
 .download {
@@ -210,22 +219,36 @@ h2 typewriter{
 }
 
 .arrow-down-btn {
-    position: absolute;
-    top: 754px;
-    left: 447px;
     height: 13vh;
     width: 12vh;
+    margin-left: 28rem;
+    margin-top: -19rem;
 }
 
+.arrow-down-btn:hover {
+    box-shadow: 0 0 4px 0.5px  rgba(238, 238, 238, 0.5) !important;
+    cursor: pointer;
+}
 
 .about-section {
-    margin-top: 1.7rem;
+    margin-top: 1.4rem;
+    padding-top: 3rem;
     background: #222831;
-    height: 903px;
+    height: 950px;
 
     display: grid;
     place-items: center;
 
+}
+
+.tune {
+    position: absolute;
+    margin-top: -6rem;
+}
+.bulb {
+    position: absolute;
+    margin-left: 22rem;
+    margin-top: -1rem;
 }
 .about-mid {
     display: grid;
@@ -316,13 +339,59 @@ h3 {
     /* height: 800px; */
 
     display: grid;
-    grid-template-columns: repeat(2, 22rem);
-    grid-template-rows: repeat(2, 22rem);
+    grid-template-columns: repeat(2, 27rem);
+    grid-template-rows: repeat(2, 18rem);
     grid-column-gap: 5rem;
     justify-content: center;
     text-align: left;
     position: relative;
+    gap: 3rem;
+    padding-bottom: 6rem;
 }
+.sevice-title {
+    margin-bottom: 6px;
+}
+.services {
+    /* border: 1px solid green; */
+}
+.lady-service {
+    width: 40vh;
+    height: 40vh;
+    margin-left: 6rem;
+}
+
+.service {
+    border: 5px solid rgba(57, 62, 70, 0.5);
+    border-radius: 16px;
+    padding: 20px;
+}
+.services-title {
+    padding: 20px;
+}
+
+.star {
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: 29rem;
+}
+.deadlines1 {
+    position: absolute;
+    margin-left: 61rem;
+    margin-top: -2rem;
+}
+.deadlines2 {
+    position: absolute;
+    margin-left: 30rem;
+    margin-top: 20rem;
+}
+.deadlines3 {
+    position: absolute;
+    margin-left: 61rem;
+    margin-top: 19.5rem;
+}
+
+
+
 
 .projects-section {
     background: #222831;
@@ -447,7 +516,7 @@ textarea {
     outline: 0;
     color: inherit;
     border: none;
-    padding: 16px 256px 16px 24px;
+    padding: 30px 30px;
 
     width: 35.6rem;
     height: 268px;
@@ -476,7 +545,7 @@ textarea {
     font-size: 18px;
     line-height: 27px;
 
-    padding: 10px 13px 10px 12px;
+    padding: 27px 27px;
     gap: 1px;
     height: 50px;
     margin-top: 19px;
