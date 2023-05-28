@@ -335,16 +335,19 @@ h3 {
 .tumblr-img {
     width: 37vh;
     height: 30vh;
+    border-radius: 16px;
 }
 
 .score-img {
     height: 30vh;
     width: 40vh;
     vertical-align: middle;
+    border-radius: 16px;
 }
 .bmi-img {
     height: 30vh;
     width: 37vh;
+    border-radius: 16px;
 }
 
 .projects {
@@ -513,13 +516,15 @@ footer {
 .icon {
     height: 6.5vh;
     width: 6.5vh;
-    padding: 13px;
+    padding: 8px;
     background: #393E46;
-    border-radius: 16px;
+    border-radius: 12px;
 }
 .credit {
     display: flex;
     justify-content: end;
     text-align: end;
-    align-items:last baseline;
+    align-items:flex-end;
+    margin-bottom: 2rem;
+    margin-right: 5rem;
 }
