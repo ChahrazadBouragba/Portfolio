@@ -92,8 +92,8 @@ a:hover {
     display: flex;
     flex-direction: row;
     margin-top: 10rem;
-    margin-left: 3rem;
-    border: 3px solid red;
+    
+    /* border: 3px solid red; */
     overflow-y: hidden;
 }
 
@@ -190,11 +190,12 @@ h2 typewriter{
     max-height: 37vh;
     max-width: 76px;
     margin-right: 1rem;
+    margin-left: 3rem;
 }
 
 .animation1 {
     margin-top: -1rem;
-    margin-left: 3.8rem;
+    margin-left: 7.5rem;
 }
 .doodle {
     width: 514px;
@@ -230,21 +231,23 @@ h2 typewriter{
     display: grid;
     grid-template-columns: 1fr, 3fr;
     gap: 10rem;
-    margin-top: 5.3rem;
+    margin-top: 7rem;
+    /* border-bottom: 1px solid red; */
     
 }
 .about {
-    margin-left: 6rem;
+    margin-left: 3rem;
     /* height: 189px; */
     /* left: 96px;
     top: 352px; */
     grid-column: 1;
     max-width: 21rem;
+    position: relative;
 }
 
 h3 {
     font-weight: 700;
-    font-size: 50px;
+    font-size: 55px;
     line-height: 96px;
     padding: 0;
 }
@@ -259,7 +262,19 @@ h3 {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-#more {display: none;}
+#more {
+    display: none;
+    /* position: absolute;
+    width: 20rem;
+    margin-left: -16rem; */
+
+}
+.arrow-dec {
+    margin-left: 10rem;
+    margin-top: 3rem;
+    z-index: 1;
+    position: relative;
+}
 
 .animation2 {
     grid-column: 2;
@@ -286,4 +301,36 @@ h3 {
 .doodle2 {
     max-width: 90vh;
     max-height: 90vh;
+}
+
+.horizotal-line {
+    border-top: 0.13rem solid rgba(238, 238, 238, 0.05);
+    z-index: 1;
+    width: 1348px;
+    margin-top: -1rem;
+    height: 4rem;
+}
+
+.services-section {
+    background: #222831;
+    /* height: 800px; */
+
+    display: grid;
+    grid-template-columns: repeat(2, 22rem);
+    grid-template-rows: repeat(2, 22rem);
+    grid-column-gap: 5rem;
+    justify-content: center;
+    text-align: left;
+    position: relative;
+    /* grid-template-areas:
+    "title title title"
+    "service1 service2 service3"; */
+}
+
+.projects-section {
+    background: #222831;
+    height: 903px;
+    background-image: url("../img/doodle items (1).png");
+    background-repeat: repeat;
+    background-size: 35% auto;
 }
