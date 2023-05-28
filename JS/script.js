@@ -13,3 +13,24 @@ function myFunction() {
       moreText.style.display = "inline";
     }
   }
+
+
+
+  window.onscroll = function () {
+    toggleScrollUpButton();
+  };
+  
+  function toggleScrollUpButton() {
+    const scrollUpButton = document.querySelector(".upArrow");
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      scrollUpButton.style.display = "block";
+    } else {
+      scrollUpButton.style.display = "none";
+    }
+  }
+  
+  function scrollToTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  
