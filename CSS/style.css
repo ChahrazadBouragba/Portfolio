@@ -322,9 +322,6 @@ h3 {
     justify-content: center;
     text-align: left;
     position: relative;
-    /* grid-template-areas:
-    "title title title"
-    "service1 service2 service3"; */
 }
 
 .projects-section {
@@ -333,4 +330,196 @@ h3 {
     background-image: url("../img/doodle items (1).png");
     background-repeat: repeat;
     background-size: 35% auto;
+}
+
+.tumblr-img {
+    width: 37vh;
+    height: 30vh;
+}
+
+.score-img {
+    height: 30vh;
+    width: 40vh;
+    vertical-align: middle;
+}
+.bmi-img {
+    height: 30vh;
+    width: 37vh;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 22rem);
+    grid-template-rows: repeat(2, 22rem);
+    grid-column-gap: 3rem;
+    justify-content: center;
+    position: relative;
+    margin-top: 4rem;
+}
+
+.project-container {
+    display: flex;
+    width: 368px;
+    height: 280px;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(57, 62, 70, 0.5);
+
+    border-radius: 16px;
+}
+
+
+.contact-section {
+    background: #222831;
+
+}
+.grid {
+    display: grid;
+    grid-template-columns: 0.9fr  1fr;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    gap: 9rem;
+    height: 903px;
+}
+
+.animation3 { 
+    padding-left: 9rem;
+}
+.last-arrow{
+    margin-bottom: 10rem;
+}
+
+.contact-form {
+    /* border: 1px solid red; */
+    /* padding-left: 2rem; */
+}
+
+.labels {
+    display: flex;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    text-align: start;
+    margin-bottom: 0.5rem;
+    padding: 0;
+    /* border: 1px solid red; */
+    font-weight: 510;
+}
+.message {
+   
+    /* border: 1px solid burlywood; */
+}
+
+.textarea{
+    display: inline-block;
+}
+input {
+    font-size: 18px;
+    width: 15rem;
+    line-height: 30px;
+    padding: 0.8rem;
+    outline: 0;
+    border: none;
+    width: 17rem;
+
+    background-color: rgba(57, 62, 70, 0.5);
+    border-radius: 16px;
+    color: white;
+}
+.nameLabel {
+    margin-right: 1.6rem;
+    margin-bottom: 1.5rem;
+}
+textarea {
+    font-size: 18px;
+    line-height: 30px;
+    outline: 0;
+    color: inherit;
+    border: none;
+    padding: 16px 256px 16px 24px;
+
+    width: 35.6rem;
+    height: 268px;
+
+    background: rgba(57, 62, 70, 0.5);
+    border-radius: 16px;
+}
+
+
+
+.send-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 10px 32px; */
+    /* gap: 10px; */
+
+    background-color: #00ADB5;
+    border-radius: 24px;
+    outline: none;
+    border: none;
+
+    color: rgba(238, 238, 238, 1);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+
+    padding: 10px 13px 10px 12px;
+    gap: 1px;
+    height: 50px;
+    margin-top: 19px;
+}
+
+footer {
+    height: 55vh;
+    border-top: 0.13rem solid rgba(238, 238, 238, 0.05);
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
+}
+
+.mini-bar {
+    display: flex;
+    gap: 4rem;
+    align-items: end;
+    justify-content: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    /* border: 1px solid red; */
+}
+.element {
+    display: flex;
+    gap: 6px;
+}
+.bar-icons {
+    width: 3.2vh;
+    height: 3.2vh;
+}
+
+.social-media {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.icon {
+    height: 6.5vh;
+    width: 6.5vh;
+    padding: 13px;
+    background: #393E46;
+    border-radius: 16px;
+}
+.credit {
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    align-items:last baseline;
 }
