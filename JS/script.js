@@ -1,3 +1,7 @@
+
+
+//! READ MORE
+
 function myFunction() {
     const dots = document.getElementById("dots");
     const moreText = document.getElementById("more");
@@ -14,7 +18,7 @@ function myFunction() {
     }
   }
 
-
+  //! SCROLL UP
 
   window.onscroll = function () {
     toggleScrollUpButton();
@@ -35,5 +39,31 @@ function myFunction() {
   }
   
 
+  //! MENU
 
+  const OpenMenu = document.querySelector(".menu");
+  const CloseMenu = document.querySelector(".close-menu");
+  const Mobile_Menu = document.querySelector(".nav-bar");
+  
+  Mobile_Menu.classList.add("hidden");
+  CloseMenu.classList.add("hidden");
+  
+  let isOpen = false;
+  
+  OpenMenu.addEventListener("click", () => {
+    if (!isOpen) {
+      CloseMenu.classList.remove("hidden");
+      Mobile_Menu.classList.remove("hidden");
+      OpenMenu.classList.add("hidden");
+      document.body.classList.add("menu-open");
+    }
+  });
+  
+  CloseMenu.addEventListener("click", () => {
+    Mobile_Menu.classList.add("hidden");
+    CloseMenu.classList.add("hidden");
+    OpenMenu.classList.remove("hidden");
+    document.body.classList.remove("menu-open")
+  });
+  
   
