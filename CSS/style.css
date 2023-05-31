@@ -209,20 +209,26 @@ h2 typewriter{
 .animation1 {
     margin-top: -1rem;
     margin-left: 7.5rem;
+    /* border: 1px solid red; */
+    padding: 0;
 }
 .elipse1 {
     margin-bottom: 0.7rem;
+    margin-left: -10rem;
+    display: none;
 }
 .doodle {
     width: 514px;
     height: 514px;
-    left: 847px;
+    left: 947px;
     top: 295px;
+    margin-left: 6rem;
 }
 
 .sticker {
     width: 56vh;
     margin-top: -23.8rem;
+    margin-left: 9rem;
 }
 
 .arrow-down-btn {
@@ -681,10 +687,10 @@ color: rgba(238, 238, 238, 0.6);
     position: fixed;
     
     bottom: 20px;
-    right: 20px;
     width: 49px;
     height: 50px;
     z-index: 999; /* Set the z-index to a high value */
+    margin-right: -9rem;
 
     transition: 0.6s ease; 
     opacity: 0.9;
@@ -832,8 +838,8 @@ color: rgba(238, 238, 238, 0.6);
     }
     .sticker {
         max-width: 80vw;
-        margin-left: 2rem;
-        margin-bottom: -2.4rem;
+        margin-left: 1.9rem;
+        margin-bottom: -4.9rem;
     }
     .elipse1 {
         margin-left: 1rem;
@@ -1079,6 +1085,15 @@ color: rgba(238, 238, 238, 0.6);
         justify-content: last baseline;
         margin-bottom: -3rem;
     }
+
+    .upArrow {
+        position: fixed;
+        
+        bottom: 20px;
+        right: 860px;
+        width: 49px;
+        height: 50px;
+    }
   }
   
 
@@ -1216,7 +1231,7 @@ color: rgba(238, 238, 238, 0.6);
     .sticker {
         max-width: 80vw;
         margin-left: 2rem;
-        margin-bottom: -2.4rem;
+        margin-bottom: -4.9rem;
     }
     .elipse1 {
         margin-left: 1rem;
@@ -1463,6 +1478,15 @@ color: rgba(238, 238, 238, 0.6);
         justify-content: last baseline;
         margin-bottom: -3rem;
     }
+
+    .upArrow {
+        position: fixed;
+        
+        bottom: 20px;
+        right: 855px;
+        width: 49px;
+        height: 50px;
+    }
   }
 
 
@@ -1584,7 +1608,7 @@ color: rgba(238, 238, 238, 0.6);
     .animation1 {
         /* display: none; */
         margin-top: 3rem;
-        margin-left: 5rem;
+        margin-left: 15rem;
         order: 1;
         overflow-x: hidden;
         overflow-y: hidden;
@@ -1599,7 +1623,7 @@ color: rgba(238, 238, 238, 0.6);
     .sticker {
         max-width: 80vw;
         margin-left: 2rem;
-        margin-bottom: -2.4rem;
+        margin-bottom: -4.9rem;
     }
     .elipse1 {
         margin-left: 1rem;
@@ -1849,6 +1873,15 @@ color: rgba(238, 238, 238, 0.6);
         justify-content: last baseline;
         margin-bottom: -3rem;
     }
+
+    .upArrow {
+        position: fixed;
+        
+        bottom: 20px;
+        right: 778px;
+        width: 49px;
+        height: 50px;
+    }
   }
 
   @media screen and (min-width: 769px) and (max-width: 991px) {
@@ -1948,7 +1981,7 @@ color: rgba(238, 238, 238, 0.6);
     .animation1 {
         /* display: none; */
         margin-top: 3rem;
-        margin-left: 15rem;
+        margin-left: 19rem;
         order: 1;
         overflow-x: hidden;
         overflow-y: hidden;
@@ -1963,7 +1996,7 @@ color: rgba(238, 238, 238, 0.6);
     .sticker {
         max-width: 200vw;
         margin-left: 5rem;
-        margin-bottom: -2.4rem;
+        margin-bottom: -3.4rem;
     }
     .elipse1 {
         margin-left: 3.7rem;
@@ -2229,6 +2262,15 @@ color: rgba(238, 238, 238, 0.6);
         justify-content: last baseline;
         margin-bottom: -3rem;
     }
+
+    .upArrow {
+        position: fixed;
+        
+        bottom: 20px;
+        right: 590px;
+        width: 49px;
+        height: 50px;
+    }
   }
 
 
@@ -2296,24 +2338,6 @@ color: rgba(238, 238, 238, 0.6);
     letter-spacing: 0em;
     text-align: left;
     }
-    /* .mid-home {
-        display: flex;
-        flex-direction: column;
-        margin-top:1rem;
-        justify-content: center;
-    }
-    .Intro {
-        margin-left: 2rem;
-        order: -1;
-        margin-top: 7rem;
-        
-    }
-    h1 {
-        font-size: 110px;
-        line-height: 125px;
-        margin-bottom: 3rem;
-    } */
-
 
     .mid-home {
         display: flex;
@@ -2381,7 +2405,7 @@ color: rgba(238, 238, 238, 0.6);
         max-width: 700vw;
         max-height: 700vh;
         margin-left: 5rem;
-        margin-bottom: -2.4rem;
+        margin-bottom: -3.3rem;
     }
     .elipse1 {
         margin-left: 3.7rem;
@@ -2405,12 +2429,7 @@ color: rgba(238, 238, 238, 0.6);
         /* border: 1px solid red; */
         gap: 3rem;
     }    
-    /* .about {
-        justify-content: center;
-        align-items: center;
-        margin-left: 6rem;
-        width: 100%;  
-    } */
+
     .about {
         margin-left: 3rem;
         /* height: 189px; */
@@ -2655,6 +2674,15 @@ color: rgba(238, 238, 238, 0.6);
         justify-content: last baseline;
         margin-bottom: -3rem;
     }
+
+    .upArrow {
+        position: fixed;
+        
+        bottom: 20px;
+        right: 360px;
+        width: 49px;
+        height: 50px;
+    }
   }
 
   @media screen and (min-width: 1200px) {
@@ -2713,7 +2741,7 @@ color: rgba(238, 238, 238, 0.6);
     
     .sticker {
         width: 56vh;
-        margin-top: -19rem;
+        margin-top: -23.3rem;
     }
 
     .arrow-down-btn {
@@ -2757,5 +2785,48 @@ color: rgba(238, 238, 238, 0.6);
     }
     .media {
         width: 3.4vw;
+    }
+
+    .upArrow {
+        position: fixed;
+        
+        bottom: 20px;
+        right: 170px;
+        width: 49px;
+        height: 50px;
+    }
+  }
+
+
+
+
+  @media screen and (min-width: 1204px) and (max-width: 1299px) {
+    body {
+        overflow: hidden;
+    }
+    .animation1 {
+        margin-top: -1rem;
+        margin-left: 9rem;
+    }
+
+    .elipse1 {
+        margin-bottom: 0.4rem;
+        margin-left: 1rem;
+    }
+    .doodle {
+        width: 514px;
+        height: 514px;
+        left: 847px;
+        top: 295px;
+    }
+    
+    .sticker {
+        width: 56vh;
+        margin-top: -27rem;
+    }
+
+
+    .elipse {
+        margin-top: -2rem;
     }
   }
