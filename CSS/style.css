@@ -278,7 +278,7 @@ h2 typewriter{
 }
 
 .about-section {
-    margin-top: 1.4rem;
+    margin-top: 0.6rem;
     padding-top: 3rem;
     background: #222831;
     /* height: 950px; */
@@ -458,7 +458,7 @@ h3 {
 }
 
 .tumblr-img {
-    width: 37vh;
+    width: 27vh;
     height: 30vh;
     border-radius: 16px;
 
@@ -481,15 +481,15 @@ h3 {
 }
 
 .score-img {
+    width: 30vh;
     height: 30vh;
-    width: 40vh;
     vertical-align: middle;
     border-radius: 16px;
     transition: transform 0.2s ease-in-out;
 }
 .bmi-img {
+    width: 27vh;
     height: 30vh;
-    width: 37vh;
     border-radius: 16px;
     transition: transform 0.2s ease-in-out;
 }
@@ -498,7 +498,7 @@ h3 {
     display: grid;
     grid-template-columns: repeat(3, 22rem);
     grid-template-rows: repeat(2, 22rem);
-    grid-column-gap: 3rem;
+    /* grid-column-gap: 3rem; */
     justify-content: center;
     position: relative;
     margin-top: 4rem;
@@ -506,12 +506,15 @@ h3 {
 
 .project-container {
     display: flex;
-    width: 360px;
-    height: 280px;
+    /* width: 10vw;
+    height: 70vh; */
+    /* max-height: 100vh;
+    width: 10vw */
     justify-content: center;
     align-items: center;
 
     background: rgba(57, 62, 70, 0.5);
+    /* background-color: #f1f1f1; */
 
     border-radius: 16px;
 }
@@ -739,7 +742,470 @@ color: rgba(238, 238, 238, 0.6);
 
 
 
-  @media screen and (max-width: 499px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*! Media Query  */
+
+
+
+
+  @media screen and (max-width: 320px) {
+    *, *::before, *::after {
+        box-sizing: border-box;
+        /* border: 3px solid green; */
+      }
+    body {
+        /* border: 3px solid red; */
+        overflow-x: hidden;
+        overflow: hidden;
+    }
+
+    .home-section {
+        /* height: 114vh; */
+    }
+    .logo {
+        margin-left: 1rem;
+        max-width: 50px;
+        max-height: 50px;
+    }
+    .menu {
+        max-width: 50px;
+        max-height: 50px;
+        margin-right: 0.7rem;
+        display: block;
+        
+    }
+    .close-menu {
+        position: absolute;
+        max-width: 30px;
+        max-height: 30px;
+        margin-right: 12rem;
+        margin-top: -7rem;
+        display: block;
+    }
+    .nav-bar {
+
+        background-color: rgba(57, 62, 70, 0.8);
+        display: flex;
+        flex-direction: column;
+        position: fixed; /* Change to fixed */
+        top: 0; /* Position at the top of the viewport */
+        right: 0; /* Position at the left of the viewport */
+        z-index: 999;
+        height: 100vh; /* Use viewport height */
+        width: 80%; /* Use full viewport width */
+        text-align: left;
+        align-items: center;
+        padding-top: 10rem;
+        margin-top: 0; 
+        transform: translateX(30%);
+
+        transition: transform 0.8s ease-in-out; 
+    }
+    .hidden {
+        display: none;
+      }
+
+      .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7); /* Adjust the transparency as needed */
+        z-index: 998; /* Place the overlay below the navigation menu */
+        display: none; /* Initially hide the overlay */
+      }
+      
+      .menu-open .overlay {
+        display: block; /* Show the overlay when the menu is open */
+      }
+
+
+    li {
+        margin-top: 2.2rem;
+        text-align: start;
+    }
+    a {
+        font-size: 20px;
+        justify-content: flex-start;
+        align-self: flex-start;
+        font-weight: bold;
+    }
+    .mid-home {
+        display: flex;
+        flex-direction: column;
+        margin-top:1rem;
+        justify-content: center;
+    }
+    .Intro {
+        margin-left: 0.6rem;
+        order: -1;
+        margin-top: 5rem;
+        
+    }
+    h1 {
+        font-size: 49px;
+        line-height: 60px;
+        margin-bottom: 0;
+    }
+    .typewriter {
+        padding: 0;
+        margin-left: 5px;
+        font-size: 17px;
+        margin-bottom: 0;
+    }
+    .cv {
+        padding: 20px 16px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .arrow {
+        position: absolute;
+        margin-top: 62rem;
+        margin-left: 10px;
+    }
+
+    .animation1 {
+        /* display: none; */
+        margin-top: 3rem;
+        margin-left: -1rem;
+        order: 1;
+        overflow-x: hidden;
+        overflow-y: hidden;
+
+    }
+    .doodle {
+        max-width: 300px;
+        max-height: 300px;
+        margin-left: 1rem;
+        margin-bottom: -2rem;
+    }
+    .sticker {
+        max-width: 70vw;
+        margin-left: 3rem;
+        margin-bottom: -3.3rem;
+        /* z-index: 1; */
+    }
+    .elipse1 {
+        margin-left: 1rem;
+    }
+
+
+    .about-mid {
+        display: block !important;
+        grid-template-rows: 1fr, 3fr;
+    }
+    .arrow-down-btn {
+        display: none;
+    }
+    .about-section {
+        margin-top: -5rem;
+    }
+    .bulb {
+        margin-left: 19rem;
+        /* display: none; */
+    }
+    .tune {
+        display: none;
+    }
+    .about {
+        /* margin-left: 2rem; */
+        padding: 2rem;
+    }
+    h3 {
+        line-height: 43px;
+        font-size: 37px;
+    }
+    .Text {
+        margin-top: 1rem;
+    }
+    .animation2 {
+        display: none;
+    }
+
+    
+    .services-section {
+        display: block;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin-top: -2px;
+        display: flex;
+        flex-direction: column;
+    }
+    .service {
+        max-width: 17rem;
+        justify-content: center;
+        /* margin-left: 2rem; */
+        margin-top: 0.1rem;
+        gap: 0.7rem;
+    }
+    .lady-service {
+        margin-left: 0.5rem;
+        margin-top: 1rem;
+        margin-bottom: -3rem;
+        max-width: 70vw;
+    }
+
+
+    .projects {
+        display: block;
+        justify-content: center;
+        padding-bottom: 2rem;
+        margin-top: 60px;
+    }
+    .project-container {
+        margin: 0 auto;
+        margin-bottom: 2rem;
+        width: 260px !important;
+        height: 40vh;
+    }
+
+    .score-img {
+        height: 33vh;
+        width: 30vh;
+        vertical-align: middle;
+        border-radius: 16px;
+        transition: transform 0.2s ease-in-out;
+    }
+    .bmi-img {
+        height: 32vh;
+        width: 29vh;
+        border-radius: 16px;
+        transition: transform 0.2s ease-in-out;
+    }
+    .tumblr-img {
+        height: 33vh;
+        width: 30vh;
+        border-radius: 16px;
+    
+        transition: transform 0.2s ease-in-out;
+    }
+
+
+    .contact-section {
+        height: 295vh;
+        margin-top: -2.1rem;
+        justify-content: center;
+    }
+
+    .grid {
+        padding-top: 5rem;
+        display: block;
+        grid-template-rows: 1fr  1fr;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid red; */
+        gap: 0;
+        height: 253vh;
+        width: 100vw;
+        justify-content: center;
+        /* margin-bottom: -6rem; */
+    }
+
+    .lastH {
+        margin-left: -4rem;
+        line-height: 60px;
+        font-size: 45px;
+        /* border: 1px solid red; */
+    
+    }
+    .animation3 {
+        /* margin-left: 1rem; */
+    }
+    .sticker3 {
+        margin-left: -4rem;
+    }
+    
+    .last-arrow {
+        position: absolute;
+        margin-top: 23rem;
+        margin-left: -2rem;
+    }
+    .contact-form {
+        margin-top: 14rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        margin-left: 0;
+        text-align: center;
+        padding-left: 0;
+        /* border: 13px solid red; */
+        margin-left: -1rem;
+    }
+    input {
+        max-width: 8rem;
+        font-size: 14px;
+    }
+
+    textarea {
+        width: 17rem;
+        font-size: 14px;
+    }
+    label {
+        font-weight: lighter;
+        font-size: 14px;
+    }
+    .labels {
+        gap: 15px;
+    }
+
+    .message {
+   
+        /* border: 1rem solid burlywood; */
+    }
+    .send-btn {
+    padding: 25px 6px;
+    width: 10rem;
+    margin-bottom: -30rem;
+    font-weight: 600;
+    font-size: 15px;
+    }
+    .mini-bar {
+        font-size: 12px;
+        gap: 1.5rem;
+    }
+
+    .bar-icons {
+        width: 2.5vh;
+        height: 2.5vh;
+        /* border: 3px solid gold; */
+        margin-top: 4px;
+       
+    }
+    .icon {
+        width: 4.8vh;
+        height: 4.8vh;
+    }
+    .media {
+        width: 10vw;
+    }
+    .social-media {
+        gap: 0.9rem;
+        justify-content: last baseline;
+    }
+    .credit {
+        /* margin-right: 1.5rem; */
+        align-items: center;
+        margin: 0 auto;
+       font-size: 13px;
+       padding: 0 !important;
+       /* display: none; */
+       padding-bottom: 0;
+       /* border: 3px solid gold; */
+       margin-top: 2rem;
+    }
+    .project-container {
+        width: 330px;
+    }
+    .star {
+        display: none;
+    }
+    .deadlines1 {
+        display: none;
+    } 
+    .deadlines2 {
+        display: none;
+    }
+    .deadlines3 {
+        display: none;
+    }
+    .mail {
+        display: none;
+    }
+
+    .upArrow {
+        /* display: none; */
+        display: flex;
+        padding: 1 rem;
+        /* border: 6px solid black; */
+    }
+    footer {
+        padding: 0 !important;
+        margin: 0 !important;
+        height: 40vh;
+        /* border: 6px solid black; */
+    }
+    .mini-bar {
+        /* margin-bottom: -0.4rem; */
+    }
+    .social-media {
+        justify-content: last baseline;
+        margin-bottom: -3rem;
+    }
+
+    .upArrow {
+        position: fixed;
+        
+        bottom: 20px;
+        right: 148px;
+        width: 38px;
+        height: 40px;
+    }
+  }
+  
+
+  
+
+
+
+
+  @media screen and (min-width: 321px) and (max-width: 499px) {
     *, *::before, *::after {
         box-sizing: border-box;
         /* border: 3px solid green; */
@@ -768,7 +1234,7 @@ color: rgba(238, 238, 238, 0.6);
         position: absolute;
         max-width: 38px;
         max-height: 38px;
-        margin-right: 15rem;
+        margin-right: 13rem;
         margin-top: -7rem;
         display: block;
     }
@@ -828,13 +1294,13 @@ color: rgba(238, 238, 238, 0.6);
         justify-content: center;
     }
     .Intro {
-        margin-left: 2rem;
+        margin-left: 0.8rem;
         order: -1;
         margin-top: 5rem;
         
     }
     h1 {
-        font-size: 58px;
+        font-size: 55px;
         line-height: 60px;
         margin-bottom: 0;
     }
@@ -857,7 +1323,7 @@ color: rgba(238, 238, 238, 0.6);
     .animation1 {
         /* display: none; */
         margin-top: 3rem;
-        margin-left: 5rem;
+        margin-left: 2rem;
         order: 1;
         overflow-x: hidden;
         overflow-y: hidden;
@@ -872,7 +1338,7 @@ color: rgba(238, 238, 238, 0.6);
     .sticker {
         max-width: 80vw;
         margin-left: 1.9rem;
-        margin-bottom: -4.9rem;
+        margin-bottom: -4.6rem;
     }
     .elipse1 {
         margin-left: 1rem;
@@ -944,26 +1410,26 @@ color: rgba(238, 238, 238, 0.6);
         margin: 0 auto;
         margin-bottom: 2rem;
 
-        width: 370px;
-        height: 240px;
+        width: 260px !important;
+        height: 40vh;
     }
 
     .score-img {
-        height: 30vh;
-        width: 45vh;
+        height: 33vh;
+        width: 30vh;
         vertical-align: middle;
         border-radius: 16px;
         transition: transform 0.2s ease-in-out;
     }
     .bmi-img {
-        height: 30vh;
-        width: 45vh;
+        height: 33vh;
+        width: 30vh;
         border-radius: 16px;
         transition: transform 0.2s ease-in-out;
     }
     .tumblr-img {
-        width: 45vh;
-        height: 30vh;
+        width: 30vh;
+        height: 33vh;
         border-radius: 16px;
     
         transition: transform 0.2s ease-in-out;
@@ -998,7 +1464,7 @@ color: rgba(238, 238, 238, 0.6);
     
     }
     .animation3 {
-        margin-left: 5rem;
+        /* margin-left: 1rem; */
     }
     .sticker3 {
         margin-left: -4rem;
@@ -1022,6 +1488,7 @@ color: rgba(238, 238, 238, 0.6);
         /* margin: 0 auto; */
 
         /* margin-left: 15px; */
+        margin-right: 1rem;
 
     }
     input {
@@ -1112,25 +1579,43 @@ color: rgba(238, 238, 238, 0.6);
         /* border: 6px solid black; */
     }
     .mini-bar {
-        /* margin-bottom: -0.4rem; */
+        font-size: 13px;
+        gap: 1.5rem;
     }
     .social-media {
+        gap: 1rem;
         justify-content: last baseline;
-        margin-bottom: -3rem;
+    }
+    .credit {
+        /* margin-right: 1.5rem; */
+        align-items: center;
+        margin: 0 auto;
+       font-size: 13px;
+       padding: 0 !important;
+       margin-top: 2rem;
+    }
+
+    .icon {
+        max-width: 4.9vh;
+        max-height: 4.9vh;
+    }
+    .bar-icons {
+        max-width: 2.8vh;
+        max-height: 2.8vh;
     }
 
     .upArrow {
         position: fixed;
         
         bottom: 20px;
-        right: 860px;
-        width: 49px;
-        height: 50px;
+        right: 150px;
+        width: 36px;
+        height: 37px;
     }
   }
-  
 
-  
+
+
   @media screen and (min-width: 500px) and (max-width: 576px) {
     *, *::before, *::after {
         box-sizing: border-box;
@@ -1160,7 +1645,7 @@ color: rgba(238, 238, 238, 0.6);
         position: absolute;
         max-width: 38px;
         max-height: 38px;
-        margin-right: 15rem;
+        margin-right: 20rem;
         margin-top: -7rem;
         display: block;
     }
@@ -1264,7 +1749,7 @@ color: rgba(238, 238, 238, 0.6);
     .sticker {
         max-width: 80vw;
         margin-left: 2rem;
-        margin-bottom: -4.9rem;
+        margin-bottom: -5.9rem;
     }
     .elipse1 {
         margin-left: 1rem;
@@ -1340,26 +1825,26 @@ color: rgba(238, 238, 238, 0.6);
         margin: 0 auto;
         margin-bottom: 2rem;
 
-        width: 370px;
-        height: 240px;
+        width: 280px !important;
+        height: 45vh;
     }
 
     .score-img {
-        height: 30vh;
-        width: 45vh;
+        height: 35vh;
+        width: 32vh;
         vertical-align: middle;
         border-radius: 16px;
         transition: transform 0.2s ease-in-out;
     }
     .bmi-img {
-        height: 30vh;
-        width: 45vh;
+        height: 35vh;
+        width: 32vh;
         border-radius: 16px;
         transition: transform 0.2s ease-in-out;
     }
     .tumblr-img {
-        width: 45vh;
-        height: 30vh;
+        height: 35vh;
+        width: 32vh;
         border-radius: 16px;
     
         transition: transform 0.2s ease-in-out;
@@ -1516,7 +2001,7 @@ color: rgba(238, 238, 238, 0.6);
         position: fixed;
         
         bottom: 20px;
-        right: 855px;
+        right: 150px;
         width: 49px;
         height: 50px;
     }
@@ -1552,7 +2037,7 @@ color: rgba(238, 238, 238, 0.6);
         position: absolute;
         max-width: 38px;
         max-height: 38px;
-        margin-right: 15rem;
+        margin-right: 26rem;
         margin-top: -7rem;
         display: block;
     }
@@ -1641,7 +2126,7 @@ color: rgba(238, 238, 238, 0.6);
     .animation1 {
         /* display: none; */
         margin-top: 3rem;
-        margin-left: 15rem;
+        margin-left: 13rem;
         order: 1;
         overflow-x: hidden;
         overflow-y: hidden;
@@ -1656,7 +2141,7 @@ color: rgba(238, 238, 238, 0.6);
     .sticker {
         max-width: 80vw;
         margin-left: 2rem;
-        margin-bottom: -4.9rem;
+        margin-bottom: -5.9rem;
     }
     .elipse1 {
         margin-left: 1rem;
@@ -1735,26 +2220,26 @@ color: rgba(238, 238, 238, 0.6);
         margin: 0 auto;
         margin-bottom: 2rem;
 
-        width: 370px;
-        height: 240px;
+        width: 320px !important;
+        height: 45vh;
     }
 
     .score-img {
-        height: 30vh;
-        width: 45vh;
+        height: 35vh;
+        width: 35vh;
         vertical-align: middle;
         border-radius: 16px;
         transition: transform 0.2s ease-in-out;
     }
     .bmi-img {
-        height: 30vh;
-        width: 45vh;
+        height: 35vh;
+        width: 35vh;
         border-radius: 16px;
         transition: transform 0.2s ease-in-out;
     }
     .tumblr-img {
-        width: 45vh;
-        height: 30vh;
+        height: 35vh;
+        width: 35vh;
         border-radius: 16px;
     
         transition: transform 0.2s ease-in-out;
@@ -1911,7 +2396,7 @@ color: rgba(238, 238, 238, 0.6);
         position: fixed;
         
         bottom: 20px;
-        right: 778px;
+        right: 150px;
         width: 49px;
         height: 50px;
     }
@@ -2029,7 +2514,7 @@ color: rgba(238, 238, 238, 0.6);
     .sticker {
         max-width: 200vw;
         margin-left: 5rem;
-        margin-bottom: -3.4rem;
+        margin-bottom: -4.7rem;
     }
     .elipse1 {
         margin-left: 3.7rem;
@@ -2123,27 +2608,26 @@ color: rgba(238, 238, 238, 0.6);
         padding-bottom: 5rem;
     }
     .project-container {
-        width: 300px;
-        /* width: 370px;
-        height: 240px; */
+        width: 300px !important;
+        height: 44vh;
     }
 
     .score-img {
-        height: 30vh;
-        width: 45vh;
+        height: 35vh;
+        width: 35vh;
         vertical-align: middle;
         border-radius: 16px;
         transition: transform 0.2s ease-in-out;
     }
     .bmi-img {
-        height: 30vh;
-        width: 45vh;
+        height: 35vh;
+        width: 35vh;
         border-radius: 16px;
         transition: transform 0.2s ease-in-out;
     }
     .tumblr-img {
-        width: 45vh;
-        height: 30vh;
+        height: 35vh;
+        width: 35vh;
         border-radius: 16px;
     
         transition: transform 0.2s ease-in-out;
@@ -2300,7 +2784,7 @@ color: rgba(238, 238, 238, 0.6);
         position: fixed;
         
         bottom: 20px;
-        right: 590px;
+        right: 160px;
         width: 49px;
         height: 50px;
     }
@@ -2438,7 +2922,7 @@ color: rgba(238, 238, 238, 0.6);
         max-width: 700vw;
         max-height: 700vh;
         margin-left: 5rem;
-        margin-bottom: -3.3rem;
+        margin-bottom: -4.6rem;
     }
     .elipse1 {
         margin-left: 3.7rem;
@@ -2490,10 +2974,36 @@ color: rgba(238, 238, 238, 0.6);
         align-items: center;
         position: relative;
         /* border: 1px solid red; */
-        padding-left: -10rem;
+        padding-left: -10rem;    .mini-bar {
+            font-size: 15px;
+            gap: 1.5rem;
+        }
+    
+        .bar-icons {
+            width: 3vh;
+            height: 3vh;
+            /* border: 3px solid gold; */
+            margin-top: 4px;
+           
+        }
+        .media {
+            width: 4vw;
+        }
+        .social-media {
+            gap: 1rem;
+            justify-content: last baseline;
+        }
+        .credit {
+            /* margin-right: 1.5rem; */
+            align-items: center;
+            margin: 0 auto;
+           font-size: 14px;
+           padding: 0 !important;
+           margin-top: 2rem;
+        }
     }
     .elipse {
-        margin-top: 3.8rem;
+        /* margin-top: rem; */
     }
     
     .services-section {
@@ -2545,27 +3055,26 @@ color: rgba(238, 238, 238, 0.6);
         margin-left: -3rem;
     }
     .project-container {
-        width: 340px;
-        /* width: 370px;
-        height: 240px; */
+        width: 345px !important;
+        height: 47vh;
     }
 
     .score-img {
-        height: 30vh;
-        width: 45vh;
+        height: 37vh;
+        width: 40vh;
         vertical-align: middle;
         border-radius: 16px;
         transition: transform 0.2s ease-in-out;
     }
     .bmi-img {
-        height: 30vh;
-        width: 45vh;
+        height: 37vh;
+        width: 40vh;
         border-radius: 16px;
         transition: transform 0.2s ease-in-out;
     }
     .tumblr-img {
-        width: 45vh;
-        height: 30vh;
+        height: 37vh;
+        width: 40vh;
         border-radius: 16px;
     
         transition: transform 0.2s ease-in-out;
@@ -2712,7 +3221,7 @@ color: rgba(238, 238, 238, 0.6);
         position: fixed;
         
         bottom: 20px;
-        right: 360px;
+        right: 163px;
         width: 49px;
         height: 50px;
     }
@@ -2732,6 +3241,11 @@ color: rgba(238, 238, 238, 0.6);
         /* border: 3px solid red; */
         margin-top: 2%;
         z-index: 1;
+    }
+    .mid-home {
+        overflow-y: hidden;
+        overflow-y: hidden;
+        overflow: hidden;
     }
     h1 {
         color: rgba(238, 238, 238, 1);
@@ -2758,7 +3272,7 @@ color: rgba(238, 238, 238, 0.6);
     
     .animation1 {
         margin-top: -1rem;
-        margin-left: 7.5rem;
+        margin-left: 5rem;
     }
 
     .elipse1 {
@@ -2774,7 +3288,7 @@ color: rgba(238, 238, 238, 0.6);
     
     .sticker {
         width: 56vh;
-        margin-top: -23.3rem;
+        margin-top: -22.6rem;
     }
 
     .arrow-down-btn {
@@ -2792,6 +3306,7 @@ color: rgba(238, 238, 238, 0.6);
 
     .projects-section {
         margin-top: -1px;
+        padding-bottom: 4rem;
     }
 
     .contact-section {
@@ -2806,9 +3321,31 @@ color: rgba(238, 238, 238, 0.6);
     }
 
     .project-container {
-        width: 300px;
-        height: 250px;
+        width: 325px !important;
+        height: 47vh;
     }
+
+    .score-img {
+        height: 37vh;
+        width: 37vh;
+        vertical-align: middle;
+        border-radius: 16px;
+        transition: transform 0.2s ease-in-out;
+    }
+    .bmi-img {
+        height: 37vh;
+        width: 37vh;
+        border-radius: 16px;
+        transition: transform 0.2s ease-in-out;
+    }
+    .tumblr-img {
+        height: 37vh;
+        width: 37vh;
+        border-radius: 16px;
+    
+        transition: transform 0.2s ease-in-out;
+    }
+
     .projects {
       gap: 1rem;
     }
@@ -2835,11 +3372,16 @@ color: rgba(238, 238, 238, 0.6);
 
   @media screen and (min-width: 1204px) and (max-width: 1299px) {
     body {
+       overflow-x: hidden;
+    }
+    .mid-home {
+        overflow-x: hidden;
+        overflow-y: hidden;
         overflow: hidden;
     }
     .animation1 {
         margin-top: -1rem;
-        margin-left: 9rem;
+        margin-left: 5rem;
     }
 
     .elipse1 {
@@ -2855,11 +3397,67 @@ color: rgba(238, 238, 238, 0.6);
     
     .sticker {
         width: 56vh;
-        margin-top: -27rem;
+        margin-top: -22.7rem;
     }
 
 
     .elipse {
         margin-top: -2rem;
+    }
+
+    .project-container {
+        width: 325px !important;
+        height: 42vh;
+    }
+
+    .score-img {
+        height: 33vh;
+        width: 33vh;
+        vertical-align: middle;
+        border-radius: 16px;
+        transition: transform 0.2s ease-in-out;
+    }
+    .bmi-img {
+        height: 33vh;
+        width: 33vh;
+        border-radius: 16px;
+        transition: transform 0.2s ease-in-out;
+    }
+    .tumblr-img {
+        height: 33vh;
+        width: 33vh;
+        border-radius: 16px;
+    
+        transition: transform 0.2s ease-in-out;
+    }
+
+
+    .bar-icons {
+        width: 3vh;
+        height: 3vh;
+    }
+    
+    .icon {
+        height: 6vh;
+        width: 6vh;
+        padding: 8px;
+        /* background: #393E46;
+        border-radius: 12px; */
+    }
+    .media {
+        width: 4vw;
+        background: #393E46;
+        border-radius: 12px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .upArrow {
+        position: fixed;
+        
+        bottom: 20px;
+        right: 220px;
+        width: 65px;
+        height: 65px;
     }
   }
