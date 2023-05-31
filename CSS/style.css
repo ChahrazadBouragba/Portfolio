@@ -24,6 +24,39 @@
 
 
 
+::-webkit-scrollbar {
+    width: 14px;
+    height: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    /* background: #00ADB5; */
+    background: #22283193;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    background:  rgba(57, 62, 70, 0.8);
+  }
+
+
+
+
+
+
+
+
+
+
 
 body {
     font-family: 'Poppins', sans-serif;
