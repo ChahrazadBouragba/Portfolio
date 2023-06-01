@@ -26,10 +26,10 @@ git clone https://github.com/ChahrazadBouragba/Portfolio.git
 ```
 <br>
 
-<p align="center">
+<div align="center" style="display: flex; align-items: flex-start;">
   <img src="./img/Document.png" alt="Image 1" width="500" style="vertical-align:top;" />
   <img src="./img/Document (1).png" alt="Image 2" width="170" style="vertical-align:top;" />
-</p>
+</div>
 
 
 <!-- ![Portfolio Project Banner](./img/Document.png) -->
