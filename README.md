@@ -27,8 +27,8 @@ git clone https://github.com/ChahrazadBouragba/Portfolio.git
 <br>
 
 <p align="center">
-  <img src="./img/Document.png" alt="Image 1" width="400" />
-  <img src="./img/Document (1).png" alt="Image 2" width="400" />
+  <img src="./img/Document.png" alt="Image 1" width="500" style="vertical-align:top;" />
+  <img src="./img/Document (1).png" alt="Image 2" width="100" style="vertical-align:top;" />
 </p>
 
 
