@@ -27,7 +27,7 @@ git clone https://github.com/ChahrazadBouragba/Portfolio.git
 <br>
 
 <div align="center" style="display: flex; align-items: flex-start;">
-  <img src="./img/Document.png" alt="Image 1" width="600" style="margin-top:-20rem;"  />
+  <img src="./img/Document.png" alt="Image 1" width="600" style="margin-bottom:20rem;"  />
   <img src="./img/Document (1).png" alt="Image 2" width="170" />
 </div>
 
