@@ -27,8 +27,8 @@ git clone https://github.com/ChahrazadBouragba/Portfolio.git
 <br>
 
 
-<div style="position: relative; top: 0;">
-  <img src="./img/Document.png" alt="Image 1" width="600" />
+<div>
+  <img src="./img/Document.png" alt="Image 1" width="600"  style="position: relative; top: 0;"/>
     <img src="./img/Document (1).png" alt="Image 2" width="170" />
 </div>
 
