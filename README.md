@@ -28,7 +28,7 @@ git clone https://github.com/ChahrazadBouragba/Portfolio.git
 
 
 <div>
-  <img src="./img/Document.png" alt="Image 1" width="600"  style="margin-top: -30 rem;"/>
+  <img src="./img/Document.png" alt="Image 1" />
     <!-- <img src="./img/Document (1).png" alt="Image 2" width="170" /> -->
 </div>
 
