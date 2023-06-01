@@ -26,5 +26,5 @@ git clone https://github.com/ChahrazadBouragba/Portfolio.git
 ```
 <br>
 
-![Portfolio Project Banner](./img/Document%20(10).png)
+![Portfolio Project Banner](./img/Document.png)
 
