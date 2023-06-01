@@ -549,6 +549,7 @@ h3 {
 .contact-form {
     /* border: 1px solid red; */
     /* padding-left: 2rem; */
+
 }
 
 .labels {
@@ -1062,8 +1063,10 @@ color: rgba(238, 238, 238, 0.6);
         /* border: 1px solid red; */
     
     }
+
     .animation3 {
         /* margin-left: 1rem; */
+        
     }
     .sticker3 {
         margin-left: -4rem;
@@ -1367,7 +1370,7 @@ color: rgba(238, 238, 238, 0.6);
     }
     h3 {
         line-height: 54px;
-        font-size: 35px;
+        font-size: 30px;
     }
     .Text {
         margin-top: 2rem;
@@ -1453,6 +1456,7 @@ color: rgba(238, 238, 238, 0.6);
         width: 100vw;
         justify-content: center;
         /* margin-bottom: -6rem; */
+        border: 4rem green;
     }
 
     .lastH {
