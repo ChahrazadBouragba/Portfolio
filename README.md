@@ -26,5 +26,11 @@ git clone https://github.com/ChahrazadBouragba/Portfolio.git
 ```
 <br>
 
-![Portfolio Project Banner](./img/Document.png)
+<p align="center">
+  <img src="./img/Document.png" alt="Image 1" width="400" />
+  <img src="./img/Document (1).png" alt="Image 2" width="400" />
+</p>
+
+
+<!-- ![Portfolio Project Banner](./img/Document.png) -->
 
